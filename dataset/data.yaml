@@ -1,0 +1,7 @@
+path: D:/Projects/Custom-Object-Detection-YOLO/dataset
+train: D:/Projects/Custom-Object-Detection-YOLO/dataset/train/images
+val: D:/Projects/Custom-Object-Detection-YOLO/dataset/valid/images
+test: D:/Projects/Custom-Object-Detection-YOLO/dataset/test/images
+
+nc: 2
+names: ["cat", "dog"]
