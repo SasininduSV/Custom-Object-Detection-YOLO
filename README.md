@@ -60,6 +60,5 @@ This repository contains a YOLOv5-based object detection pipeline for identifyin
 
 - To run inference on new images, use:
   ```bash
-  python detect.py --weights runs/train/custom_yolov5/weights/best.pt --img 640 --source path_to_image_or_folder
   python yolov5/detect.py --weights yolov5/runs/train/exp/weights/best.pt --source /path/to/image.jpg --img 640 --conf 0.4
   ```
